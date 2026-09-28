@@ -1,8 +1,3 @@
-@font-face{font-family:'Space Grotesk';src:url('/conexiones/fonts/space-grotesk-400.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'Space Grotesk';src:url('/conexiones/fonts/space-grotesk-700.woff2') format('woff2');font-weight:700;font-display:swap}
-@font-face{font-family:'DM Mono';src:url('/conexiones/fonts/dm-mono-400.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'Source Serif 4';src:url('/conexiones/fonts/source-serif-4-400.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'Source Serif 4';src:url('/conexiones/fonts/source-serif-4-400i.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
 :root{--paper:#f7f5ef;--ink:#26221b;--muted:#857d6b;--accent:#7b2d43;--tile:#e9e4d3;--d0:#e3c15c;--d1:#7ba889;--d2:#7d9bd1;--d3:#a98ac8;--mono:'DM Mono',monospace;--sans:'Space Grotesk',sans-serif;--serif:'Source Serif 4',Georgia,serif}
 *{box-sizing:border-box;margin:0;padding:0}
 [hidden]{display:none!important}
@@ -74,3 +69,4 @@ h1 em{font-style:italic;color:var(--accent)}
 #story-download{background:var(--ink);color:var(--paper)}
 .story-note{padding:0 18px 18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
 @media (max-width:640px){.game{padding:18px 14px 48px}.brand,.footer-brand{font-size:26px}.issue{font-size:10px}.tile{min-height:56px}.actions{flex-wrap:wrap}}
+
